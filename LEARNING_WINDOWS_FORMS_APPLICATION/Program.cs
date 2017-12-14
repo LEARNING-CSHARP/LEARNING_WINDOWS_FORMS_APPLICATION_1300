@@ -2,6 +2,10 @@
 {
 	static class Program
 	{
+		static Program()
+		{
+		}
+
 		[System.STAThread]
 		static void Main()
 		{
@@ -11,18 +15,18 @@
 			// **************************************************
 
 			// **************************************************
-			MainForm frmMain = new MainForm();
+			MainForm startupForm = new MainForm();
 
-			System.Windows.Forms.Application.Run(frmMain);
+			System.Windows.Forms.Application.Run(startupForm);
 
-			if (frmMain != null)
+			if (startupForm != null)
 			{
-				if (frmMain.IsDisposed == false)
+				if (startupForm.IsDisposed == false)
 				{
-					frmMain.Dispose();
+					startupForm.Dispose();
 				}
 
-				frmMain = null;
+				startupForm = null;
 			}
 			// **************************************************
 		}
