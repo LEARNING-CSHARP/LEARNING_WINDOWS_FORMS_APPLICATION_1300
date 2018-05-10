@@ -30,9 +30,9 @@
 			this.button1 = new System.Windows.Forms.Button();
 			this.leftSplitter = new System.Windows.Forms.Splitter();
 			this.mainPanel = new System.Windows.Forms.Panel();
-			this.emailsListBox = new System.Windows.Forms.ListBox();
-			this.splitter1 = new System.Windows.Forms.Splitter();
 			this.emailBodyTextBox = new System.Windows.Forms.TextBox();
+			this.splitter1 = new System.Windows.Forms.Splitter();
+			this.emailsListBox = new System.Windows.Forms.ListBox();
 			this.leftPanel.SuspendLayout();
 			this.mainPanel.SuspendLayout();
 			this.SuspendLayout();
@@ -135,15 +135,15 @@
 			this.mainPanel.Size = new System.Drawing.Size(360, 320);
 			this.mainPanel.TabIndex = 4;
 			// 
-			// emailsListBox
+			// emailBodyTextBox
 			// 
-			this.emailsListBox.Dock = System.Windows.Forms.DockStyle.Top;
-			this.emailsListBox.FormattingEnabled = true;
-			this.emailsListBox.ItemHeight = 16;
-			this.emailsListBox.Location = new System.Drawing.Point(0, 0);
-			this.emailsListBox.Name = "emailsListBox";
-			this.emailsListBox.Size = new System.Drawing.Size(360, 132);
-			this.emailsListBox.TabIndex = 0;
+			this.emailBodyTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.emailBodyTextBox.Location = new System.Drawing.Point(0, 142);
+			this.emailBodyTextBox.Multiline = true;
+			this.emailBodyTextBox.Name = "emailBodyTextBox";
+			this.emailBodyTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+			this.emailBodyTextBox.Size = new System.Drawing.Size(360, 178);
+			this.emailBodyTextBox.TabIndex = 2;
 			// 
 			// splitter1
 			// 
@@ -155,15 +155,15 @@
 			this.splitter1.TabIndex = 1;
 			this.splitter1.TabStop = false;
 			// 
-			// emailBodyTextBox
+			// emailsListBox
 			// 
-			this.emailBodyTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.emailBodyTextBox.Location = new System.Drawing.Point(0, 142);
-			this.emailBodyTextBox.Multiline = true;
-			this.emailBodyTextBox.Name = "emailBodyTextBox";
-			this.emailBodyTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-			this.emailBodyTextBox.Size = new System.Drawing.Size(360, 178);
-			this.emailBodyTextBox.TabIndex = 2;
+			this.emailsListBox.Dock = System.Windows.Forms.DockStyle.Top;
+			this.emailsListBox.FormattingEnabled = true;
+			this.emailsListBox.ItemHeight = 16;
+			this.emailsListBox.Location = new System.Drawing.Point(0, 0);
+			this.emailsListBox.Name = "emailsListBox";
+			this.emailsListBox.Size = new System.Drawing.Size(360, 132);
+			this.emailsListBox.TabIndex = 0;
 			// 
 			// MainForm
 			// 

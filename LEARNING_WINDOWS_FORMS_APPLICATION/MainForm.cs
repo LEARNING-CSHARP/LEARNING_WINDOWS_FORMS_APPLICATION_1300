@@ -13,6 +13,18 @@
 
 		//private void leftPanel_DoubleClick(object sender, System.EventArgs e)
 		//{
+		//	if (leftPanel.Width != 10)
+		//	{
+		//		leftPanel.Width = 10;
+		//	}
+		//	else
+		//	{
+		//		leftPanel.Width = 200;
+		//	}
+		//}
+
+		//private void leftPanel_DoubleClick(object sender, System.EventArgs e)
+		//{
 		//	int currentLeftPanelWidth = 10;
 
 		//	if (leftPanel.Width != 10)
