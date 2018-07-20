@@ -39,19 +39,19 @@
 		//	}
 		//}
 
-		public int CurrentLeftPanelWidth;
+		int currentLeftPanelWidth;
 
 		private void leftPanel_DoubleClick(object sender, System.EventArgs e)
 		{
 			if (leftPanel.Width != 10)
 			{
-				CurrentLeftPanelWidth = leftPanel.Width;
+				currentLeftPanelWidth = leftPanel.Width;
 
 				leftPanel.Width = 10;
 			}
 			else
 			{
-				leftPanel.Width = CurrentLeftPanelWidth;
+				leftPanel.Width = currentLeftPanelWidth;
 			}
 		}
 	}
