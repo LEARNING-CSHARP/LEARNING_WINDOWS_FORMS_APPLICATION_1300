@@ -11,7 +11,7 @@
 		{
 		}
 
-		//private void leftPanel_DoubleClick(object sender, System.EventArgs e)
+		//private void LeftPanel_DoubleClick(object sender, System.EventArgs e)
 		//{
 		//	if (leftPanel.Width != 10)
 		//	{
@@ -23,7 +23,7 @@
 		//	}
 		//}
 
-		//private void leftPanel_DoubleClick(object sender, System.EventArgs e)
+		//private void LeftPanel_DoubleClick(object sender, System.EventArgs e)
 		//{
 		//	int currentLeftPanelWidth = 10;
 
@@ -41,7 +41,7 @@
 
 		int currentLeftPanelWidth;
 
-		private void leftPanel_DoubleClick(object sender, System.EventArgs e)
+		private void LeftPanel_DoubleClick(object sender, System.EventArgs e)
 		{
 			if (leftPanel.Width != 10)
 			{

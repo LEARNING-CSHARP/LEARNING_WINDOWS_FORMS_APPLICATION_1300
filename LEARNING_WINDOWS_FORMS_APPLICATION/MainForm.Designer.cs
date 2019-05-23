@@ -67,7 +67,7 @@
 			this.leftPanel.Name = "leftPanel";
 			this.leftPanel.Size = new System.Drawing.Size(200, 320);
 			this.leftPanel.TabIndex = 2;
-			this.leftPanel.DoubleClick += new System.EventHandler(this.leftPanel_DoubleClick);
+			this.leftPanel.DoubleClick += new System.EventHandler(this.LeftPanel_DoubleClick);
 			// 
 			// button3
 			// 
